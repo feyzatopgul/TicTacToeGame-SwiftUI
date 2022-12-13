@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct GameView: View {
-    var name: String
     @StateObject var game = Game()
     @State var isEnded:Bool = false
+    @State var isBoardDisabled:Bool = false
     
     var body: some View {
         ZStack {
@@ -42,14 +42,18 @@ struct GameView: View {
                                                 return
                                             }
                                             game.humanMove(index: 3 * i + j)
+                                            //isBoardDisabled = true
                                             if game.isWinned(currentBoard: game.board, player: .human) || game.isTied() {
                                                 isEnded = true
                                             }
                                             else {
-                                                game.aiMove()
-                                                if game.isWinned(currentBoard: game.board, player: .ai) || game.isTied() {
-                                                    isEnded = true
-                                                }
+                                                //DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                                                    game.aiMove()
+                                                    if game.isWinned(currentBoard: game.board, player: .ai) || game.isTied() {
+                                                        isEnded = true
+                                                    }
+                                                    //isBoardDisabled = false
+                                                //}
                                             }
                                         }
                                     }
@@ -63,6 +67,7 @@ struct GameView: View {
                         }
                     }
                 }
+                //.disabled(isBoardDisabled)
                 .padding(.top, 150)
                 .padding(.leading, 20)
                 .padding(.trailing, 30)
@@ -76,8 +81,6 @@ struct GameView: View {
                 .padding(.bottom, 50)
             }
         }
-        .navigationTitle("Good luck \(name)!")
-        .navigationBarBackButtonHidden()
     }
     func alertText() -> String {
         if game.winner == .human {
@@ -86,13 +89,13 @@ struct GameView: View {
         else if game.winner == .ai {
             return "😢 You lost 😢"
         } else {
-            return "Game is tied 😐"
+            return "Game over 😐"
         }
     }
 }
 
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
-        GameView(name: "Feyza")
+        GameView()
     }
 }

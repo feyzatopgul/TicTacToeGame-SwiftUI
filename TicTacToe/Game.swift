@@ -13,6 +13,7 @@ class Game: ObservableObject {
     @Published var winner: Player? = nil
     @Published var availableMoves: Set<Int> = [0, 1, 2, 3, 4, 5, 6, 7, 8]
     
+    
     func humanMove(index: Int) {
         if availableMoves.contains(index) {
             board[index] = "X"
@@ -28,67 +29,58 @@ class Game: ObservableObject {
     }
     
     func aiMove() {
-            var tempBoard = board
-                
-            func minMax(isMax: Bool) -> Int {
-                
-                if isWinned(currentBoard:tempBoard, player: .human) {
-                    return -1 * (availableMoves.count + 1)
-                }
-                if isWinned(currentBoard:tempBoard, player: .ai) {
-                    return 1 * (availableMoves.count + 1)
-                }
-                if availableMoves.isEmpty {
-                    return 0
-                }
-                if isMax {
-                    var best = Int.min
-                    for i in 0...8 {
-                        if tempBoard[i] == "" {
-                            tempBoard[i] = "O"
-                            availableMoves.remove(i)
-                            best = max(best, minMax(isMax: !isMax))
-                            tempBoard[i] = ""
-                            availableMoves.insert(i)
-                        }
-                    }
-                    return best
-                } else {
-                    var best = Int.max
-                    for i in 0...8 {
-                        if tempBoard[i] == "" {
-                            tempBoard[i] = "X"
-                            availableMoves.remove(i)
-                            best = min(best, minMax(isMax: !isMax))
-                            tempBoard[i] = ""
-                            availableMoves.insert(i)
-                        }
-                    }
-                    return best
+        var tempBoard = board
+        var bestMove = -1
+        var bestScore = 0
+        
+        func minimax(isMax: Bool) -> Int {
+            var scores:[Int] = []
+            var moves:[Int] = []
+        
+            if isWinned(currentBoard:tempBoard, player: .human) {
+                return -1 * (availableMoves.count + 1)
+            }
+            if isWinned(currentBoard:tempBoard, player: .ai) {
+                return 1 * (availableMoves.count + 1)
+            }
+            if availableMoves.isEmpty {
+                return 0
+            }
+            for i in 0...8 {
+                if tempBoard[i] == "" {
+                    tempBoard[i] = isMax ? "O" : "X"
+                    availableMoves.remove(i)
+                    let score = minimax(isMax: !isMax)
+                    scores.append(score)
+                    moves.append(i)
+                    tempBoard[i] = ""
+                    availableMoves.insert(i)
                 }
             }
-            
-            func findBestMove() -> Int {
-                var bestScore = Int.min
-                var bestMove = -1
-                
-                for i in 0...8 {
-                    if tempBoard[i] == "" {
-                        tempBoard[i] = "O"
-                        let moveScore = minMax(isMax: false)
-                        tempBoard[i] = ""
-                        if moveScore > bestScore {
-                            bestMove = i
-                            bestScore = moveScore
-                        }
+            if isMax {
+                bestScore = Int.min
+                for i in 0...scores.count - 1 {
+                    if scores[i] > bestScore {
+                        bestScore = scores[i]
+                        bestMove = moves[i]
                     }
                 }
-                return bestMove
+            } else {
+                bestScore = Int.max
+                for i in 0...moves.count - 1 {
+                    if scores[i] < bestScore {
+                        bestScore = scores[i]
+                        bestMove = moves[i]
+                    }
+                }
             }
-            let bestMove = findBestMove()
-            board[bestMove] = "O"
-            availableMoves.remove(bestMove)
+            return bestScore
         }
+
+        _ = minimax(isMax: true)
+        board[bestMove] = "O"
+        availableMoves.remove(bestMove)
+    }
     
     func isWinned(currentBoard: [String], player: Player) -> Bool {
         if currentBoard[0] == player.rawValue && currentBoard[1] == player.rawValue && currentBoard[2] == player.rawValue ||
