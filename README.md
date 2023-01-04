@@ -45,7 +45,7 @@ We would love you for the contribution to **YourLibraryName**, check the ``LICEN
 
 ## Meta
 
-Feyza Topgul – [@YourTwitter](https://twitter.com/FeyzaTopgul) – feyzatopgul@gmail.com
+Feyza Topgul – [@FeyzaTopgul](https://twitter.com/FeyzaTopgul) – feyzatopgul@gmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
