@@ -13,8 +13,8 @@
   </p>
 </p>
 
-<p align="row">
-<img src= "https://media.giphy.com/media/Z3BIlHD7DZC00nNd2c/giphy.gif" width="400" >
+<p align="center">
+<img src= "https://media.giphy.com/media/Z3BIlHD7DZC00nNd2c/giphy.gif" width="300" >
 </p>
 
 ## Features
