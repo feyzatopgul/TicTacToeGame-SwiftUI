@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		624B0AF62966324200E71907 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		624B0AF72966328B00E71907 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		62D073492942660300835DA0 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D0734C2942660300835DA0 /* TicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeApp.swift; sourceTree = "<group>"; };
 		62D073502942660400835DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +78,8 @@
 		62D073402942660300835DA0 = {
 			isa = PBXGroup;
 			children = (
+				624B0AF72966328B00E71907 /* LICENSE.md */,
+				624B0AF62966324200E71907 /* README.md */,
 				62D0734B2942660300835DA0 /* TicTacToe */,
 				62D0735C2942660400835DA0 /* TicTacToeTests */,
 				62D073662942660400835DA0 /* TicTacToeUITests */,
