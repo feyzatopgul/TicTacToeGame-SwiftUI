@@ -14,8 +14,7 @@
 </p>
 
 <p align="row">
-<img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" >
-<img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" >
+<img src= "https://giphy.com/gifs/Z3BIlHD7DZC00nNd2c" width="400" >
 </p>
 
 ## Features
@@ -39,15 +38,11 @@
 2. Congratulations!  
 
 
-## Contribute
-
-We would love you for the contribution to **YourLibraryName**, check the ``LICENSE`` file for more info.
-
 ## Meta
 
 Feyza Topgul – [@FeyzaTopgul](https://twitter.com/FeyzaTopgul) – feyzatopgul@gmail.com
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the XYZ license. See ``LICENSE`` for more information.
 
 [https://github.com/feyzatopgul](https://github.com/feyzatopgul)
 
