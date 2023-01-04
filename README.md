@@ -14,7 +14,7 @@
 </p>
 
 <p align="row">
-<img src= "https://giphy.com/gifs/Z3BIlHD7DZC00nNd2c" width="400" >
+<img src= "https://media.giphy.com/media/Z3BIlHD7DZC00nNd2c/giphy.gif" width="400" >
 </p>
 
 ## Features
