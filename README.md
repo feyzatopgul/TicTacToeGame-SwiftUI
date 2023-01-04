@@ -49,7 +49,7 @@ Feyza Topgul – [@YourTwitter](https://twitter.com/FeyzaTopgul) – feyzatopgul
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/feyzatopgul)
+[https://github.com/feyzatopgul](https://github.com/feyzatopgul)
 
 [swift-image]:https://img.shields.io/badge/swift-5.7-orange.svg
 [swift-url]: https://swift.org/
