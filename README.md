@@ -1,6 +1,6 @@
 
 [![Swift Version][swift-image]][swift-url]
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)]
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![License][license-image]][license-url]
 
 # TicTacToe
