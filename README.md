@@ -1,7 +1,7 @@
 
 [![Swift Version][swift-image]][swift-url]
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)]
 [![License][license-image]][license-url]
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 
 # TicTacToe
 <br />
@@ -33,7 +33,7 @@
 ## Installation
 
 #### Manually
-1. Download and open ```TicTacToe.xcodeproj``` in your project.  
+1. Download and open ```TicTacToe.xcodeproj```.  
 2. Build and run.
 2. Congratulations!  
 
@@ -42,12 +42,10 @@
 
 Feyza Topgul – [@FeyzaTopgul](https://twitter.com/FeyzaTopgul) – feyzatopgul@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/feyzatopgul](https://github.com/feyzatopgul)
-
 [swift-image]:https://img.shields.io/badge/swift-5.7-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-
