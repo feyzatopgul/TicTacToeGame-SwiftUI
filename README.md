@@ -4,13 +4,16 @@
 <p align="center">
   <a href="https://github.com/feyzatopgul/TicTacToeGame-SwiftUI">
   </a>
-  <p align="center">
+  <p align="row">
     TicTacToe game performed with an unbeatable AI
   </p>
 </p>
 
-<p align="center">
-<img src= "https://media.giphy.com/media/Z3BIlHD7DZC00nNd2c/giphy.gif" width="200" >
+<p align="row">
+<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gifY" width="200">
+<img src= "https://media.giphy.com/media/LSkgKewJjNyDjltDFY/giphy.gif" width="200">
+<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200">
+<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200">
 </p>
 
 ## Requirements
