@@ -10,10 +10,7 @@
 </p>
 
 <p align="row">
-<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200" style="margin-right:25px;"/>
-<img src= "https://media.giphy.com/media/LSkgKewJjNyDjltDFY/giphy.gif" width="200"> 
-<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200"> 
-<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200">
+<img src= "https://media.giphy.com/media/Z3BIlHD7DZC00nNd2c/giphy.gif" width="200" >
 </p>
 
 ## Requirements
