@@ -10,9 +10,9 @@
 </p>
 
 <p align="row">
-<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200" style="margin-right: 10px">
+<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200" style="margin-left:25px;"/>
 <img src= "https://media.giphy.com/media/LSkgKewJjNyDjltDFY/giphy.gif" width="200"> 
-<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200"> <br>
+<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200"> 
 <img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200">
 </p>
 
