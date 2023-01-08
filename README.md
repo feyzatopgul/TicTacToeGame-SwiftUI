@@ -10,10 +10,10 @@
 </p>
 
 <p align="row">
-<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gifY" width="200">
-<img src= "https://media.giphy.com/media/LSkgKewJjNyDjltDFY/giphy.gif" width="200"> <br/>
-<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200">
-<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200">
+<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gifY" width="150">
+<img src= "https://media.giphy.com/media/LSkgKewJjNyDjltDFY/giphy.gif" width="150"> <br>
+<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="150">
+<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="150">
 </p>
 
 ## Requirements
