@@ -60,6 +60,8 @@ There are five service classes that view models use. All these classes are desig
 
 - **NetworkReachability:** Provides network connection status.
 
+### Model&APIs
+
 <img src= "https://i.imgur.com/qEDkgRT.png" width="600">
 
 ### TabBar
