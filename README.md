@@ -9,10 +9,10 @@
 </p>
 
 <p align="row">
-<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
-<img src= "https://media.giphy.com/media/1Rkfq6m9ZjDaJrAheI/giphy.gif" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200"><br /> 
+<img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
+<img src= "https://media.giphy.com/media/1Rkfq6m9ZjDaJrAheI/giphy.gif" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+<img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br /> 
+<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200"> 
 <img src= "https://i.imgur.com/MKfQ3Nm.png" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
 <img src= "https://i.imgur.com/P2NeH0F.png" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
 <img src= "https://i.imgur.com/1amvVPS.png" width="200">
@@ -50,15 +50,15 @@ A user can
 
 There are five service classes that view models use. All these classes are designed using Singleton pattern. They have a shared instance and this instance is available from anywhere in the program. Dependency injection is performed to create loosely coupled objects. 
 
-**NetworkManager:** Handles network requests and decodes the returned JSON data into a model. It is a generic class that you can handle any network requests.
+- **NetworkManager:** Handles network requests and decodes the returned JSON data into a model. It is a generic class that you can handle any network requests.
 
-**LocationManager:** Handles location authorization and authorization changes, provides current location and searched loation coordinates.
+- **LocationManager:** Handles location authorization and authorization changes, provides current location and searched loation coordinates.
 
-**ImageLoader:** Downloads an image using an image url and returns the image data. In memory image caching is used with NSCache to prevent downloading the same image again and again to improve app performance.
+- **ImageLoader:** Downloads an image using an image url and returns the image data. In memory image caching is used with NSCache to prevent downloading the same image again and again to improve app performance.
 
-**CoreDataManager:** CoreData is used for persistency. This class is responsible for fetching, filtering, saving and deleting data.
+- **CoreDataManager:** CoreData is used for persistency. This class is responsible for fetching, filtering, saving and deleting data.
 
-**NetworkReachability:** Provides network connection status.
+- **NetworkReachability:** Provides network connection status.
 
 <img src= "https://i.imgur.com/qEDkgRT.png" width="600">
 
@@ -88,13 +88,13 @@ Photos of the selected place is shown in a collectionView. Maximum 20 photos are
 
 Expands the selected photo and displays it. Custom animation was performed for presenting this view controller.
 
-<img src= "https://i.imgur.com/yUXYIiK.png" width="600">
+<img src= "https://i.imgur.com/yUXYIiK.png" width="400">
 
 ### FavoritesView
 
 Displays the favorite places in a collectionView. Search bar is used to make searches according to the name and the location of the places. Users can navigate to DetailsViewController from a a collectionView cell.
 
-<img src= "https://i.imgur.com/4V2IpZl.png" width="600">
+<img src= "https://i.imgur.com/4V2IpZl.png" width="400">
 
 ## Installation
 
