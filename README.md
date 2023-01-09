@@ -64,10 +64,6 @@ There are five service classes that view models use. All these classes are desig
 
 <img src= "https://i.imgur.com/qEDkgRT.png" width="600">
 
-### TabBar
-
-The app has a tab bar with two tabs: HomeViewController and FavoritesViewController. Both of them are embedded in Navigation Controllers. 
-
 ### HomeView
 
 HomeViewController displays 10 popular burger places around if the location service is enabled.If the location is not enabled, a warningView is displayed to ask users to enable locations. It also shows an alert when the device is not connected to the internet. There is a search button that performs navigation to SearchViewController.
