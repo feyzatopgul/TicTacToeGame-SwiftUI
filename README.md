@@ -1,5 +1,4 @@
 # Burger Finder
-<br />
 <p align="center">
   <a href="https://github.com/feyzatopgul/Burger-Finder">
   </a>
