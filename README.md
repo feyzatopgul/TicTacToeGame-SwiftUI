@@ -6,8 +6,6 @@
   <p align="row">
     Burger Finder is a mobile iOS app developed with Swift. It is an app that users can find burger places in any location.
   </p>
-</p>
-
 <p align="center">
 <img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
 <img src= "https://media.giphy.com/media/1Rkfq6m9ZjDaJrAheI/giphy.gif" width="200"> <br /> 
@@ -66,7 +64,7 @@ There are five service classes that view models use. All these classes are desig
 
 ### HomeView
 
-HomeViewController displays 10 popular burger places around if the location service is enabled.If the location is not enabled, a warningView is displayed to ask users to enable locations. It also shows an alert when the device is not connected to the internet. There is a search button that performs navigation to SearchViewController.
+HomeViewController displays 10 popular burger places around if the location service is enabled. If the location is not enabled, a warningView is displayed to ask users to enable locations. It also shows an alert when the device is not connected to the internet. There is a search button that performs navigation to SearchViewController.
 
 <img src= "https://i.imgur.com/ykiC5F8.png" width="800">
 
@@ -84,7 +82,7 @@ Photos of the selected place is shown in a collectionView. Maximum 20 photos are
 
 ### PhotoView
 
-Expands the selected photo and displays it. Custom animation was performed for presenting this view controller.
+Expands the selected photo and displays it. Custom animation is performed for presenting this view controller.
 
 <img src= "https://i.imgur.com/yUXYIiK.png" width="400">
 
@@ -97,7 +95,7 @@ Displays the favorite places in a collectionView. Search bar is used to make sea
 ## Installation
 
 1. Download and open ```Burger Finder.xcodeproj```.  
-2. Navigate to ServiceManager/NetworkManager/NetworkConstants file and replace ```YOUR_KEY!``` with your ```API_KEY```
+2. Navigate to ```ServiceManager/NetworkManager/NetworkConstants``` file and replace ```YOUR_KEY!``` with your ```API_KEY```
 3. If you are using a simulator, please provide a location from ```Features > Location```
 4. Build and run. 
 
