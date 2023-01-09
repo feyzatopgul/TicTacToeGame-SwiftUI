@@ -11,7 +11,7 @@
 
 <p align="row">
 <img src= "https://media.giphy.com/media/Z3BIlHD7DZC00nNd2c/giphy.gif" width="200" >
-<img src= "https://imgur.com/MKfQ3Nm" width="200" >
+<img src= "https://i.imgur.com/MKfQ3Nm.png" width="200" >
 </p>
 
 ## Requirements
