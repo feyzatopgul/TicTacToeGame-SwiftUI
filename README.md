@@ -13,7 +13,7 @@
 <img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200">
 <img src= "https://media.giphy.com/media/LSkgKewJjNyDjltDFY/giphy.gif" width="200"><br />
 <img src= "https://media.giphy.com/media/bsIECnXDrokxyhPbjE/giphy.gif" width="200"> 
-<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200"> 
+<img src= "https://media.giphy.com/media/hMfq6vbWZMx1pEdsRK/giphy.gif" width="200"><br /> 
 <img src= "https://i.imgur.com/MKfQ3Nm.png" width="200">
 <img src= "https://i.imgur.com/P2NeH0F.png" width="200">
 <img src= "https://i.imgur.com/1amvVPS.png" width="200">
