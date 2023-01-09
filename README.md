@@ -9,7 +9,6 @@
   </p>
 </p>
 
-<br />
 <p align="row">
 <img src= "https://media.giphy.com/media/QI9cAyHSC7NBQxswRY/giphy.gif" width="200">
 
